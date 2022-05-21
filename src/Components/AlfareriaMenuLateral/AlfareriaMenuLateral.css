@@ -2,7 +2,7 @@
   position: fixed;
   width: 200px;
   height: 50vh;
-  background-color: rgb(255, 245, 221);
+  background-color: rgb(255, 250, 238);
   right: -240px;
   top: -240px;
   transition: 1s;
@@ -12,7 +12,6 @@
   justify-content: center;
   list-style: none;
   border-bottom-left-radius: 70px;
-  
 }
 .container_menu.is-active {
   z-index: 100;
@@ -20,8 +19,12 @@
   top: 0px;
   transition: 1s;
 }
-.container_menu li{
-    margin: 1vh;
-    padding: 1vh;
-    font-family: sans-serif;
+.container_menu li {
+  margin: 1vh;
+  padding: 1vh;
+  font-family: sans-serif;
+}
+
+.icon_menu_lateral {
+  margin-right: 5px;
 }

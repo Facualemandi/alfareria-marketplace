@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.img_ilustration{
-    width: 100vw;
-    position: absolute;
+.main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
