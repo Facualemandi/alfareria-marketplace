@@ -1,0 +1,27 @@
+.container_menu {
+  position: fixed;
+  width: 200px;
+  height: 50vh;
+  background-color: rgb(255, 245, 221);
+  right: -240px;
+  top: -240px;
+  transition: 1s;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style: none;
+  border-bottom-left-radius: 70px;
+  
+}
+.container_menu.is-active {
+  z-index: 100;
+  right: 0px;
+  top: 0px;
+  transition: 1s;
+}
+.container_menu li{
+    margin: 1vh;
+    padding: 1vh;
+    font-family: sans-serif;
+}
