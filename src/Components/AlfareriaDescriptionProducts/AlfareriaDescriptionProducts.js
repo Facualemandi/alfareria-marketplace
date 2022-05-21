@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "./AlfareriaDescriptionProducts.css";
+import { BsArrowRightShort } from 'react-icons/bs';
 
 const AlfareriaDescriptionProducts = ({ name, image, id, totalItemDescription, el }) => {
   return (
@@ -14,7 +15,7 @@ const AlfareriaDescriptionProducts = ({ name, image, id, totalItemDescription, e
               <p>{name}</p>
         </section>
            
-           <NavLink to={`/description/${id}`}>Hola</NavLink>
+           <NavLink to={`/description/${id}`} className='more_info'>Más información <BsArrowRightShort className="icon_rigth"/> </NavLink>
       </section>
     </>
   );
