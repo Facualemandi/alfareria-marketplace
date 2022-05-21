@@ -9,11 +9,16 @@ function App() {
   const [product, setProduct] = useState([])
 
 
-  let navDes = useNavigate();
 
   const totalItemDescription = (el) => {
     setProduct(el)
   };
+
+   let nav = useNavigate()
+
+   const navHome = () => {
+     nav(`/`)
+   }
 
 
   return (
@@ -28,7 +33,7 @@ function App() {
           }
         />
 
-        <Route path="/description/:id" element={<DescriptionProduct product={product}/>} />
+        <Route path="/description/:id" element={<DescriptionProduct product={product} navHome={navHome}/>} />
       </Routes>
     </>
   );
