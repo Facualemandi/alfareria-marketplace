@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/alfareria-marketplace/static/css/main.32ccc9c3.css",
+    "main.js": "/alfareria-marketplace/static/js/main.7e46a9d7.js",
+    "static/media/ceramica12.jpeg": "/alfareria-marketplace/static/media/ceramica12.898ea2b2f9bbbbc518f5.jpeg",
+    "static/media/ceramica7.jpeg": "/alfareria-marketplace/static/media/ceramica7.00dfbc9e8965d4e4bf2d.jpeg",
+    "static/media/ceramica9.jpeg": "/alfareria-marketplace/static/media/ceramica9.3ff310d348be8975ae99.jpeg",
+    "static/media/ceramica5.jpeg": "/alfareria-marketplace/static/media/ceramica5.acc4128ccee6e0203292.jpeg",
+    "static/media/ceramica11.jpeg": "/alfareria-marketplace/static/media/ceramica11.b39153fbca4dcb5497c1.jpeg",
+    "static/media/ceramica1.jpeg": "/alfareria-marketplace/static/media/ceramica1.b35b92f5d1893c66eac0.jpeg",
+    "static/media/ceramica6.jpeg": "/alfareria-marketplace/static/media/ceramica6.039599fda8d85d682cb3.jpeg",
+    "static/media/ceramica16.jpeg": "/alfareria-marketplace/static/media/ceramica16.4baf274676592eb56a83.jpeg",
+    "static/media/ceramica17.jpeg": "/alfareria-marketplace/static/media/ceramica17.8c0200df0a888d2765b6.jpeg",
+    "static/media/ceramica10.jpeg": "/alfareria-marketplace/static/media/ceramica10.687a28ca6a6e8221214c.jpeg",
+    "static/media/ceramica13.jpeg": "/alfareria-marketplace/static/media/ceramica13.a4d861172f21f6fe1e85.jpeg",
+    "static/media/ceramica14.jpeg": "/alfareria-marketplace/static/media/ceramica14.97250f503199b78baaf7.jpeg",
+    "static/media/ceramica4.jpeg": "/alfareria-marketplace/static/media/ceramica4.462b13c830bd884c566a.jpeg",
+    "static/media/ceramica15.jpeg": "/alfareria-marketplace/static/media/ceramica15.cd93710f48168f62a827.jpeg",
+    "static/media/ceramica8.jpeg": "/alfareria-marketplace/static/media/ceramica8.c6bad2ae2e479b809434.jpeg",
+    "static/media/ceramica3.jpeg": "/alfareria-marketplace/static/media/ceramica3.ebd01df8d04476155d55.jpeg",
+    "static/media/ceramica2.jpeg": "/alfareria-marketplace/static/media/ceramica2.507d95573d634cbc6d7f.jpeg",
+    "static/media/ilustration.png": "/alfareria-marketplace/static/media/ilustration.d2ff8e78dbcb54a5fa0e.png",
+    "index.html": "/alfareria-marketplace/index.html",
+    "main.32ccc9c3.css.map": "/alfareria-marketplace/static/css/main.32ccc9c3.css.map",
+    "main.7e46a9d7.js.map": "/alfareria-marketplace/static/js/main.7e46a9d7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32ccc9c3.css",
+    "static/js/main.7e46a9d7.js"
+  ]
+}
