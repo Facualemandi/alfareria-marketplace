@@ -1,11 +1,11 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "./AlfareriaDescriptionProducts.css";
-import { BiChevronRight } from 'react-icons/bi';
 
-const AlfareriaDescriptionProducts = ({ name, image, description, price ,}) => {
+const AlfareriaDescriptionProducts = ({ name, image, id, totalItemDescription, el }) => {
   return (
     <>
-      <section className="container_total_description">
+      <section className="container_total_description" onClick={() => totalItemDescription(el)}>
         <section className='container_description_img'>
           <img alt={name} src={image}  className='img_product'/>
         </section>
@@ -14,10 +14,12 @@ const AlfareriaDescriptionProducts = ({ name, image, description, price ,}) => {
               <p>{name}</p>
         </section>
            
-           <p className="more_info">  Mas información <BiChevronRight/> </p>
+           <NavLink to={`/description/${id}`}>Hola</NavLink>
       </section>
     </>
   );
 };
 
 export default AlfareriaDescriptionProducts;
+
+
