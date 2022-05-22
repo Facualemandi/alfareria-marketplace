@@ -1,10 +1,10 @@
 import React from "react";
-import "./AlfareriaTitle.css";
+import "./AlfareriaNav.css";
 import { VscClose } from "react-icons/vsc";
 import { RiMenu5Fill } from "react-icons/ri";
 import AlfareriaMenuLateral from "../AlfareriaMenuLateral/AlfareriaMenuLateral";
 
-const AlfareriaTitle = ({ handleOpenMenu, openMenu }) => {
+const AlfareriaNav = ({ handleOpenMenu, openMenu }) => {
   return (
     <>
       <nav className="nav">
@@ -22,4 +22,4 @@ const AlfareriaTitle = ({ handleOpenMenu, openMenu }) => {
   );
 };
 
-export default AlfareriaTitle;
+export default AlfareriaNav;

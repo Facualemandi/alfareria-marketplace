@@ -1,12 +1,9 @@
 import React, { useState } from "react";
 import { useSearch } from "../../Hooks/useSearch";
-
 import { useItems } from "../../Hooks/useItems";
-import { useNavigate } from "react-router-dom";
-
 import AlfareriaSearch from "../AlfareriaSearch/AlfareriaSearch";
 import AlfareriaProducts from "../AlfareriaProducts/AlfareriaProducts";
-import AlfareriaTitle from "../AlfareriaTitle/AlfareriaTitle";
+import AlfareriaTitle from "../AlfareriaNav/AlfareriaNav";
 
 const ContainerPrincipalPage = ({totalItemDescription}) => {
   const [openMenu, setOpenMenu] = useState(false);
