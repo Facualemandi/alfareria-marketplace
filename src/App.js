@@ -6,19 +6,17 @@ import { useItems } from "./Hooks/useItems";
 
 function App() {
   const [items] = useItems();
-  const [product, setProduct] = useState([])
-
-
+  const [product, setProduct] = useState([]);
 
   const totalItemDescription = (el) => {
-    setProduct(el)
+    setProduct(el);
   };
 
-   let nav = useNavigate()
+  let nav = useNavigate();
 
-   const navHome = () => {
-     nav(`/`)
-   }
+  const navHome = () => {
+    nav(`/`);
+  };
 
 
   return (
@@ -29,11 +27,15 @@ function App() {
           element={
             <ContainerPrincipalPage
               totalItemDescription={totalItemDescription}
+            
+
             />
           }
         />
-
-        <Route path="/description/:id" element={<DescriptionProduct product={product} navHome={navHome}/>} />
+        <Route
+          path="/description/:id"
+          element={<DescriptionProduct product={product} navHome={navHome}  />}
+        />
       </Routes>
     </>
   );

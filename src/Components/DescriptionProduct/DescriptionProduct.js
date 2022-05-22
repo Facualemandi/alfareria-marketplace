@@ -1,17 +1,29 @@
-import React from "react";
+import React, { useState } from "react";
 import "../DescriptionProduct/DescriptionProduct.css";
 import { RiWhatsappFill } from "react-icons/ri";
 import { IoIosReturnLeft } from "react-icons/io";
+import { FcLikePlaceholder } from 'react-icons/fc';
+import { FcLike } from 'react-icons/fc';
 
 const DescriptionProduct = ({ product, navHome }) => {
   let { name, price, image, description } = product;
+
+  const [like, setLike] = useState(false)
+
+  const [count, setCount] = useState(0)
+
 
   console.log(product);
   return (
     <>
       <section className="container_description_product">
         <section className="">
-          <img alt={name} src={image} className="img_description_product" />
+           <img alt={name} src={image} className="img_description_product" />
+        </section>
+
+        <section className="section_like">
+            {<p className="asdsad"> <FcLike className="icon_heart" /> </p>}
+
         </section>
 
         <section>
@@ -32,6 +44,11 @@ const DescriptionProduct = ({ product, navHome }) => {
           >
             Pedi por WhatsApp <RiWhatsappFill className="icon_whatsapp" />
           </a>
+        </section>
+
+
+        <section>
+            <input/>
         </section>
 
 

@@ -1,13 +1,11 @@
 .img_product {
-  width: 18vh;
-  height: 18vh;
+  width: 22vh;
+  height: 22vh;
   border-radius: 5px;
   box-shadow: 1px 1px 3px 1px rgb(205, 205, 205);
 }
 
 .container_total_description {
-  border: 1px solid rgb(216, 216, 216);
-  padding: 1vh;
   margin: 1vh;
   height: auto;
   display: flex;
@@ -18,13 +16,16 @@
 .container_description_img{
   display: flex;
   justify-content: center;
+  width: max-content;
+  position: relative;
 
 }
 
 .name_product {
   font-size: 16px;
-  color: grey;
-  font-family: "Open Sans", sans-serif;
+  color: rgb(94, 94, 94);
+  font-family: sans-serif;
+  margin-top: 1.5vh;
 }
 
 .more_info {
@@ -32,6 +33,8 @@
   font-family: "Open Sans", sans-serif;
   display: flex;
   align-items: center;
+  text-decoration: none;
+  color: rgb(118, 163, 218);
 }
 
 
@@ -44,4 +47,17 @@
 .icon_rigth{
   width: 20px;
   height: 20px;
+}
+
+
+.details{
+  background-color: rgb(210, 210, 210);
+  color: rgb(0, 0, 0);
+  border-radius: 100%;
+  position: absolute;
+  right: 2vh;
+  top: 2vh;
+  width: 4vh;
+  height: 4vh;
+  padding: 3px;
 }

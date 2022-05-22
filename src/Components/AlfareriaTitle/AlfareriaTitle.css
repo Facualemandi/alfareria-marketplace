@@ -1,17 +1,20 @@
 .nav{
     display: flex;
-    padding-top: 2vh;
     width: 100vw;
     position: absolute;
-    top: 0px;
+    top: 11px;
+    border-radius: 5px;
 }
 
 .icon_menu{
-    width: 50px;
-    height: 50px;
-    right: 1vh;
-    top: 1vh;
+    width: 35px;
+    height: 35px;
+    right: 2vh;
     z-index: 200;
+    background-color: rgb(244, 244, 244);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .title{

@@ -5,11 +5,18 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 1vh;
+    margin: 2vh;
+    margin-top: 3vh;
+    border-radius: 10px;
+    background-color: rgb(244, 244, 244);
 }
 
 .section_search .input{
     height: 40px;
     width: 60vw;
+    background-color: rgb(244, 244, 244);
     border: none;
+    outline-color: rgb(206, 239, 255);
 }
+
+

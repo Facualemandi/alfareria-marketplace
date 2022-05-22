@@ -3,7 +3,7 @@ import { useSearch } from "../../Hooks/useSearch";
 
 import { useItems } from "../../Hooks/useItems";
 import { useNavigate } from "react-router-dom";
-import AlfareriaIlustration from "../AlfareriaIlustration/AlfareriaIlustration";
+
 import AlfareriaSearch from "../AlfareriaSearch/AlfareriaSearch";
 import AlfareriaProducts from "../AlfareriaProducts/AlfareriaProducts";
 import AlfareriaTitle from "../AlfareriaTitle/AlfareriaTitle";
@@ -25,15 +25,15 @@ const ContainerPrincipalPage = ({totalItemDescription}) => {
     setSearch(e.target.value);
   };
 
-  const navDes = useNavigate();
 
 
 
   return (
     <>
-      <AlfareriaIlustration />
+
       <AlfareriaTitle handleOpenMenu={handleOpenMenu} openMenu={openMenu} />
       <AlfareriaSearch handleSearch={handleSearch} search={search} />
+      
       <main className="main">
         <AlfareriaProducts
           items={items}

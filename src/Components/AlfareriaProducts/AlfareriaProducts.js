@@ -2,7 +2,10 @@ import React from "react";
 import AlfareriaDescriptionProducts from "../AlfareriaDescriptionProducts/AlfareriaDescriptionProducts";
 import "./AlfareriaProducts.css";
 
-const AlfareriaProducts = ({ items, newBazar, totalItemDescription }) => {
+
+
+
+const AlfareriaProducts = ({  newBazar, totalItemDescription}) => {
   return (
     <>
       {newBazar.map((el) => (
@@ -16,6 +19,7 @@ const AlfareriaProducts = ({ items, newBazar, totalItemDescription }) => {
             description={el.description}
             price={el.price}
             totalItemDescription={totalItemDescription}
+
             
           />
     
