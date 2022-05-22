@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/alfareria-marketplace/static/css/main.bc7651f6.css",
-    "main.js": "/alfareria-marketplace/static/js/main.92966b26.js",
+    "main.css": "/alfareria-marketplace/static/css/main.231b13f4.css",
+    "main.js": "/alfareria-marketplace/static/js/main.c4e00c70.js",
     "static/media/ceramica12.jpeg": "/alfareria-marketplace/static/media/ceramica12.898ea2b2f9bbbbc518f5.jpeg",
     "static/media/ceramica7.jpeg": "/alfareria-marketplace/static/media/ceramica7.00dfbc9e8965d4e4bf2d.jpeg",
     "static/media/ceramica9.jpeg": "/alfareria-marketplace/static/media/ceramica9.3ff310d348be8975ae99.jpeg",
@@ -21,11 +21,11 @@
     "static/media/ceramica2.jpeg": "/alfareria-marketplace/static/media/ceramica2.507d95573d634cbc6d7f.jpeg",
     "static/media/CeramicaArtesanalLogo.png": "/alfareria-marketplace/static/media/CeramicaArtesanalLogo.0e0e9bee2b3bbf1a17d8.png",
     "index.html": "/alfareria-marketplace/index.html",
-    "main.bc7651f6.css.map": "/alfareria-marketplace/static/css/main.bc7651f6.css.map",
-    "main.92966b26.js.map": "/alfareria-marketplace/static/js/main.92966b26.js.map"
+    "main.231b13f4.css.map": "/alfareria-marketplace/static/css/main.231b13f4.css.map",
+    "main.c4e00c70.js.map": "/alfareria-marketplace/static/js/main.c4e00c70.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc7651f6.css",
-    "static/js/main.92966b26.js"
+    "static/css/main.231b13f4.css",
+    "static/js/main.c4e00c70.js"
   ]
 }
