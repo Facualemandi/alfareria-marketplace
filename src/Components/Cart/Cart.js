@@ -2,11 +2,12 @@ import React from "react";
 import "./Cart.css";
 import { GiShoppingCart } from "react-icons/gi";
 
-const Cart = () => {
+const Cart = ({count}) => {
   return (
     <>
       <section className="other_nav">
-        <GiShoppingCart  className="cart"/>
+        <span>{count}</span>
+        <GiShoppingCart className="cart" />
       </section>
     </>
   );

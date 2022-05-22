@@ -5,25 +5,13 @@ import { FcLike } from "react-icons/fc";
 import { GrFormAdd } from "react-icons/gr";
 import { BiMinus } from "react-icons/bi";
 import Productuantity from "../Productuantity/Productuantity";
+import { useCount } from "../../Hooks/useCount";
 
 const DescriptionProduct = ({ product, navHome }) => {
   let { name, price, image, description } = product;
+   const {count, addCart, removeCart} = useCount()
 
-  const [count, setCount] = useState(0);
-
-  const addCart = () => {
-    setCount(count + 1);
-  };
-  const removeCart = () => {
-    if (count > 0) {
-      setCount(count - 1);
-    } else {
-      setCount(count);
-    }
-  };
-
-  if (count > 0) {
-  }
+   
 
   console.log(product);
   return (

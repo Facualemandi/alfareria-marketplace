@@ -5,10 +5,12 @@ import DescriptionProduct from "./Components/DescriptionProduct/DescriptionProdu
 import { useItems } from "./Hooks/useItems";
 import { GiShoppingCart } from 'react-icons/gi';
 import Cart from "./Components/Cart/Cart";
+import { useCount } from "./Hooks/useCount";
 
 function App() {
   const [items] = useItems();
   const [product, setProduct] = useState([]);
+   const {count} = useCount()
 
   const totalItemDescription = (el) => {
     setProduct(el);
@@ -23,7 +25,7 @@ function App() {
 
   return (
     <>
-        <Cart/>
+        <Cart count={count}/>
       <Routes>
         <Route
           path="/"
