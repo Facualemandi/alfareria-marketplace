@@ -36,7 +36,7 @@ const ContainerPrincipalPage = ({totalItemDescription}) => {
           items={items}
           newBazar={newBazar}
           totalItemDescription={totalItemDescription}
-   
+        
         />
       </main>
     </>

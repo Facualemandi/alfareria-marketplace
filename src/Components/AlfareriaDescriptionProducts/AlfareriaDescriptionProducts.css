@@ -1,10 +1,6 @@
-*{
-  box-sizing: border-box;
-}
-
 
 .img_product {
-  width: 9.5rem;
+  width: 20vh;
   height: 20vh;
   border-radius: 5px;
   box-shadow: 1px 1px 3px 1px rgb(205, 205, 205);
@@ -98,4 +94,9 @@
   background-color: white;
   border-radius: 5px;
   padding: 1vh;
+}
+
+.name_product span{
+  color: rgb(0, 120, 0);
+  margin-top: 1vh;
 }
