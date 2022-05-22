@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Route, Routes, useNavigate } from "react-router-dom";
-import AlfareriaLogo from "./Components/AlfareriaLogo/AlfareriaLogo";
 import ContainerPrincipalPage from "./Components/ContainerPrincipalPage/ContainerPrincipalPage";
 import DescriptionProduct from "./Components/DescriptionProduct/DescriptionProduct";
 import { useItems } from "./Hooks/useItems";
@@ -22,7 +21,7 @@ function App() {
 
   return (
     <>
-      <AlfareriaLogo/>
+     
       <Routes>
         <Route
           path="/"
