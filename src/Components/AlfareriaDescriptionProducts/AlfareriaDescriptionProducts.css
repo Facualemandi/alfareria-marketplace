@@ -3,10 +3,9 @@
 }
 
 
-
 .img_product {
-  width: 22vh;
-  height: 22vh;
+  width: 20vh;
+  height: 20vh;
   border-radius: 5px;
   box-shadow: 1px 1px 3px 1px rgb(205, 205, 205);
 }
@@ -14,8 +13,10 @@
 .container_total_description {
   height: auto;
   display: flex;
+  margin: auto;
   flex-direction: column;
   justify-content: center;
+  margin-top: 3vh;
 }
 
 .container_description_img{
