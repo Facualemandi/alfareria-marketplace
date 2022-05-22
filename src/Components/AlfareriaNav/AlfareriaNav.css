@@ -5,15 +5,13 @@
     border-radius: 5px;
 }
 
-.container_nav{
 
-   
-}
 
 .icon_menu{
     width: 40px;
     height: 40px;
     right: 2vh;
+    top: 3vh;
     z-index: 200;
     background-color: rgb(244, 244, 244);
     display: flex;
