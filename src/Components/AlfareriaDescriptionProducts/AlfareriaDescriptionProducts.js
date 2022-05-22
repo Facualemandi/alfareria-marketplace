@@ -25,18 +25,13 @@ const AlfareriaDescriptionProducts = ({
   return (
     <>
       <section
-        className="container_total_description"
+        className={`container_total_description ${buy && 'is-active'}`}
         onClick={() => totalItemDescription(el)}
       >
         <section className="container_description_img">
           <img alt={name} src={image} className="img_product" />
           <CgDetailsMore className="details" onClick={placeholder} />
           
-          <NavLink to={`/description/${id}`}>
-          <section className={`container_item ${buy && 'is-active'}`}>
-              {buy && <p className={`buy_item`}> Hace tu pedido <BsArrowRightShort className="icon_rigth" /></p>}
-          </section>
-          </NavLink> 
         </section>
 
         <section className="name_product">
@@ -46,6 +41,11 @@ const AlfareriaDescriptionProducts = ({
 
   
 
+          <NavLink to={`/description/${id}`}>
+          <section className={`container_item`}>
+              {buy && <button className={`buy_item`}> Hace tu pedido <BsArrowRightShort className="icon_rigth" /></button>}
+          </section>
+          </NavLink> 
       </section>
     </>
   );
