@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./AlfareriaDescriptionProducts.css";
 import { BsArrowRightShort } from "react-icons/bs";
-import { CgDetailsMore } from "react-icons/cg";
+import { MdMoreVert } from "react-icons/md";
 
 const AlfareriaDescriptionProducts = ({
   name,
@@ -30,7 +30,7 @@ const AlfareriaDescriptionProducts = ({
       >
         <section className="container_description_img">
           <img alt={name} src={image} className="img_product" />
-          <CgDetailsMore className="details" onClick={placeholder} />
+          <MdMoreVert className="details" onClick={placeholder} />
           
         </section>
 
