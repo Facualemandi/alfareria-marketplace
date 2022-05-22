@@ -47,7 +47,7 @@ const DescriptionProduct = ({ product, navHome }) => {
         </section>
 
         <section>
-          <p className="price_description_product">{price}</p>
+          <p className="price_description_product">${price}</p>
         </section>
 
         <section>

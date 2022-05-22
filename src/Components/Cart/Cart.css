@@ -1,0 +1,17 @@
+.other_nav{
+position: fixed;
+display: flex;
+justify-content: center;
+align-items: center;
+z-index: 999;
+bottom: 0px; 
+width: 100vw;
+height: 50px;
+background-color: white;
+}
+
+.cart{
+    width: 30px;
+    height: 30px;
+}
+

@@ -21,7 +21,7 @@ const bazar = [
     {
       id:1,
       name: "Plato de vidrio",
-      price: "$90.00",
+      price: "90.00",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       image: `${ceramica1}`,
@@ -29,7 +29,7 @@ const bazar = [
     {
       id:2,
       name: "4 Platos - 3 Tazas ",
-      price: "$560.00",
+      price: "560.00",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
       image: `${ceramica2}`,
@@ -37,7 +37,7 @@ const bazar = [
     {
       id:3,
       name: "3 Platos - 2 Tazas",
-      price: "$360.00",
+      price: "360.00",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
       image: `${ceramica3}`,
@@ -45,7 +45,7 @@ const bazar = [
     {
       id:4,
       name: "Plato de ceramica",
-      price: "$60.00",
+      price: "60.00",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       image: `${ceramica4}`,
@@ -53,7 +53,7 @@ const bazar = [
     {
       id:5,
       name: "(Set) 3 Tazas - 4 Platos ",
-      price: "$650.00",
+      price: "650.00",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
       image: `${ceramica5}`,
@@ -61,7 +61,7 @@ const bazar = [
     {
       id:6,
       name: "(Set) 5 Tazas - 5 Platos",
-      price: "$890.00",
+      price: "890.00",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
       image: `${ceramica6}`,
@@ -69,7 +69,7 @@ const bazar = [
     {
       id:7,
       name: "(Set) 6 Tazas para café",
-      price: "$1000.00",
+      price: "1000.00",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
       image: `${ceramica7}`,
@@ -77,7 +77,7 @@ const bazar = [
     {
       id:8,
       name: "Taza artesanal",
-      price: "$70.00",
+      price: "70.00",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
       image: `${ceramica8}`,
@@ -85,7 +85,7 @@ const bazar = [
     {
       id:9,
       name: "(Set) 2 Tazas - 5 Platos ondos",
-      price: "$450.00",
+      price: "450.00",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
       image: `${ceramica9}`,
@@ -93,7 +93,7 @@ const bazar = [
     {
       id:10,
       name: "Taza + Plato para café",
-      price: "$150.00",
+      price: "150.00",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
       image: `${ceramica10}`,
@@ -101,7 +101,7 @@ const bazar = [
     {
       id:11,
       name: "Taza + Plato para café",
-      price: "$150.00",
+      price: "150.00",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
       image: `${ceramica11}`,
@@ -109,7 +109,7 @@ const bazar = [
     {
       id:12,
       name: "(Set) 4 Tazas - 4 Platos para café",
-      price: "$670.00",
+      price: "670.00",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
       image: `${ceramica12}`,
@@ -117,7 +117,7 @@ const bazar = [
     {
       id:13,
       name: "Olla pequeña para adorno",
-      price: "$50.00",
+      price: "50.00",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
       image: `${ceramica13}`,
@@ -125,7 +125,7 @@ const bazar = [
     {
       id:14,
       name: "(Set) 4 Bowl para postre",
-      price: "$300.00",
+      price: "300.00",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
       image: `${ceramica14}`,
@@ -133,7 +133,7 @@ const bazar = [
     {
       id:15,
       name: "Taza + Plato para café",
-      price: "$150.00",
+      price: "150.00",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       image: `${ceramica15}`,
@@ -141,7 +141,7 @@ const bazar = [
     {
       id:16,
       name: "Taza + Plato grande",
-      price: "$230.00",
+      price: "230.00",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
       image: `${ceramica16}`,
@@ -149,7 +149,7 @@ const bazar = [
     {
       id:17,
       name: "Taza + Plato ",
-      price: "$180.00",
+      price: "180.00",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
       image: `${ceramica17}`,

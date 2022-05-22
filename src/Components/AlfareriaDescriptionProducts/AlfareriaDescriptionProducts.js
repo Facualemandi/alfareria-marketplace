@@ -36,7 +36,7 @@ const AlfareriaDescriptionProducts = ({
 
         <section className="name_product">
           <p>{name}</p>
-          <span className="price_description">{price}</span>
+          <span className="price_description">${price}</span>
         </section>
 
   

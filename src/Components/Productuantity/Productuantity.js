@@ -5,13 +5,11 @@ import { RiWhatsappFill } from "react-icons/ri";
 const Productuantity = ({ product, count }) => {
   let { name, price, image } = product;
 
-  const totalPrice = price;
-  console.log(count);
-  console.log(totalPrice);
+  const totalPrice = (price * count)
 
   return (
     <>
-      {console.log(product)}
+
 
       <h2 className="title_quantity"> Tu pedido es el siguiente:</h2>
 
@@ -20,7 +18,7 @@ const Productuantity = ({ product, count }) => {
 
         <section className="container_features">
           <p>{name}</p>
-          <span>{price}</span>
+          <span>${price}</span>
         </section>
 
         <span className="amount"> x{count} </span>
@@ -29,7 +27,7 @@ const Productuantity = ({ product, count }) => {
       
         <section className="section_whatsapp">
           <a
-            href={`https://api.whatsapp.com/send?phone=543517653448&text=Hola!%20Quiero%20pedirte%20${name}%20por%20el%20precio%20de%20${price}%20x${count}!`}
+            href={`https://api.whatsapp.com/send?phone=543517653448&text=Hola!%20Quiero%20pedirte%20${name}%20x${count}%20por%20un%20total%20de%20$${totalPrice}`}
           >
             Pedi por WhatsApp <RiWhatsappFill className="icon_whatsapp" />
           </a>
