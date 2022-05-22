@@ -1,0 +1,12 @@
+.container_cart_products {
+  position: fixed;
+  z-index: 998;
+  width: 100vw;
+  height: auto;
+  bottom: 0px;
+  background-color: white;
+}
+
+.container_cart_products.is-active{
+
+}

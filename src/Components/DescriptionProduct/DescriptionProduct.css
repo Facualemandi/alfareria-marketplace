@@ -117,13 +117,13 @@
   background-color: rgb(235, 249, 255);
   width: 80vw;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   text-align: center;
   border-radius: 5px;
 }
 
-.add_to_cart{
+.select_item{
   width: 80vw;
   display: flex;
   justify-content: center;
@@ -137,6 +137,13 @@
   background-color: rgb(235, 249, 255);
   border: none;
 }
+
+.section_add_items .add_to_cart{
+  width: 35vw;
+  background-color: rgb(251, 244, 207);
+  border-radius: 5px;
+}
+
 
 .btn_cart{
   width: 5vh;

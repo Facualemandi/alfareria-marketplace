@@ -16,4 +16,10 @@ background-color: rgb(230, 230, 230);
     font-family: sans-serif;
 }
 
+.section_cart_products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 

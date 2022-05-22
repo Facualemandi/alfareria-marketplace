@@ -11,6 +11,10 @@ const DescriptionProduct = ({ product, navHome }) => {
   let { name, price, image, description } = product;
    const {count, addCart, removeCart} = useCount()
 
+
+   const handleAddCart = (product) => {
+           
+   }
    
 
   console.log(product);
@@ -43,7 +47,7 @@ const DescriptionProduct = ({ product, navHome }) => {
         </section>
 
         <section className="add_items">
-          <p className="add_to_cart">Selecciona la cantidad de producto </p>
+          <p className="select_item">Selecciona la cantidad de producto </p>
 
           <section className="section_add_items">
             <button>
@@ -53,6 +57,7 @@ const DescriptionProduct = ({ product, navHome }) => {
             <button className="btn_cart" onClick={addCart}>
               <GrFormAdd />
             </button>
+            <button className="add_to_cart" onClick={() => handleAddCart(product)}> Add to cart </button>
           </section>
 
           {count > 0 && <Productuantity product={product} count={count} />}

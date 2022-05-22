@@ -16,8 +16,9 @@ function App() {
     setProduct(el);
   };
 
-  let nav = useNavigate();
+  
 
+  let nav = useNavigate();
   const navHome = () => {
     nav(`/`);
   };
