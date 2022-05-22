@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 .img_product {
   width: 22vh;
   height: 22vh;
@@ -6,7 +9,6 @@
 }
 
 .container_total_description {
-  margin: 1vh;
   height: auto;
   display: flex;
   flex-direction: column;
